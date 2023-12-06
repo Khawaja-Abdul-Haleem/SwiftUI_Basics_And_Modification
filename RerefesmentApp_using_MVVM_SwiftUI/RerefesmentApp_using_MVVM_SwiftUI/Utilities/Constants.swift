@@ -319,4 +319,8 @@ class Constants {
     static func getFlameIcon() -> Image {
         Image(systemName: "flame")
     }
+    
+    static func getBackButtonIcon() -> Image {
+        Image("backButtonIcon")
+    }
 }
